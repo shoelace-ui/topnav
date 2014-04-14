@@ -1,0 +1,15 @@
+{
+  "name": "topnav",
+  "description": "A responsive, reuseable navbar",
+  "author": "Nellie McCool <namccool@gmail.com>",
+  "repository": "git://github.com/shoelace-ui/topnav.git",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "stylus": "^0.43.1"
+  },
+  "devDependencies": {
+    "jade": "^1.3.1"
+  }
+}

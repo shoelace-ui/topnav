@@ -1,0 +1,32 @@
+@require './items.styl'
+@require '../node_modules/shoelace-ui-media-queries/index.styl'
+
+.topnav
+  position fixed
+  min-height 50px
+  width 100%
+  border-bottom 1px solid #ccc
+
+  &-right
+  &-left
+    position relative
+
+  &-right
+    float left
+    max-width 50%
+
+  &-left
+    float right
+    height 100%
+
+  &-icon
+    display none
+
++screen-size-below('tablet')
+  .topnav
+    &-right
+    &-left
+      display none
+    &-icon
+      display block
+      width 50%
